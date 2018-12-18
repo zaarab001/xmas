@@ -1,0 +1,672 @@
+/* Created by zaarab001 */ 
+ 
+body {
+    background-color: white;
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+    margin-top: -190px;
+}
+
+@media (min-width: 550px) {
+    
+    body {
+        -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+        margin-top: -90px;
+    } 
+}
+
+.gitsubologi {
+    width: 230px;
+    height: 230px;
+    border-radius: 100px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+/*
+** HEAD
+*/
+
+.eyebrow1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-box-shadow: 15px 15px 0 0 rgba(126, 126, 126, 0.363);
+            box-shadow: 15px 15px 0 0 rgba(126, 126, 126, 0.363);
+    -webkit-transform: rotate(220deg);
+            transform: rotate(220deg);
+    position: relative;
+    left: 17px;
+}
+
+.eye1 {
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 90%;
+    position: relative;
+    left: 26px;
+    top: -157px;
+}
+
+.pupil1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 90%;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    left: 23px;
+}
+
+.eyebrow2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-box-shadow: 15px 15px 0 0 rgba(126, 126, 126, 0.363);
+            box-shadow: 15px 15px 0 0 rgba(126, 126, 126, 0.363);
+    -webkit-transform: rotate(220deg);
+            transform: rotate(220deg);
+    position: relative;
+    left: 140px;
+    top: -81px;
+}
+
+.eye2 {
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 90%;
+    position: relative;
+    left: 150px;
+    top: -218px;
+}
+
+.pupil2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 90%;
+    background-color: black;
+    position: relative;
+    top: 19px;
+    left: 22px;
+}
+
+.nose {
+    width: 60px;
+    height: 40px;
+    border-radius: 30px / 20px;
+    border: 0.5px solid black;
+    background-color: peachpuff;
+    position: relative;
+    top: 96px;
+    left: 88px;
+}
+
+.mouth {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    -webkit-box-shadow: 15px 15px 0 0 rgb(65, 65, 65);
+            box-shadow: 15px 15px 0 0 rgb(65, 65, 65);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: 3;
+    position: relative;
+    top: -235px;
+    left: 66px;
+}
+
+
+.beard {
+    width: 200px; 
+    height: 280px;
+    border-radius:50% 50% 70% 70% / 50% 50% 100% 100%;
+    background-color: whitesmoke;
+    z-index: 2;
+    position: relative;
+    left: 19px;
+    top: -286px;
+}
+
+/*
+** CAP
+*/
+
+.cap-tape {
+    width: 200px;
+    height: 50px;
+    background-color: snow;
+
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    top: -721px;
+    left: 16px;
+}
+
+.cap-part1 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 200px solid rgb(180, 0, 0);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: relative;
+    z-index: 1;
+    top: -960px;
+    left: 16px;
+}
+
+.point1, .point2, .point3, .point4 {
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #FFD700;
+    border-radius: 90%;
+    float: left;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    margin-right: 25px;
+}
+
+.point3 {
+    left: 22px;
+}
+
+.cap-bobble {
+    height: 60px;
+    width: 60px;
+    border-radius: 90%;
+    background-color: white;
+    z-index: 0;
+    position: relative;
+    top: -1123px;
+    left: 136px;
+    border: 1px double #00000059;
+}
+
+/* BODY */
+
+.redbody {
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+    left: -84px;
+    top: -830px;
+    border-radius: 50% 50% 30% 30%;
+}
+
+.body-point1, .body-point2, .body-point3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 90%;
+    background-color: black;
+}
+
+.body-point1 {
+    position: relative;
+    top: 250px;
+    left: 188px;
+    border: 2px solid lightgrey;
+}
+
+.body-point2 {
+    position: relative;
+    top: 262px;
+    left: 188px;
+    border: 2px solid lightgrey;
+}
+
+.body-point3 {
+    position: relative;
+    top: 274px;
+    left: 188px;
+    border: 2px solid lightgrey;
+}
+
+/* LEGS */
+
+@-webkit-keyframes legwiggle1 {
+    0%{-webkit-transform: rotate(110deg);transform: rotate(110deg);}
+    50%{-webkit-transform: rotate(125deg);transform: rotate(125deg);}
+    100%{-webkit-transform: rotate(110deg);transform: rotate(110deg);}
+}
+
+@keyframes legwiggle1 {
+    0%{-webkit-transform: rotate(110deg);transform: rotate(110deg);}
+    50%{-webkit-transform: rotate(125deg);transform: rotate(125deg);}
+    100%{-webkit-transform: rotate(110deg);transform: rotate(110deg);}
+}
+
+@-webkit-keyframes legwiggle2 {
+    0%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}
+    50%{-webkit-transform: rotate(55deg);transform: rotate(55deg);}
+    100%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}
+}
+
+@keyframes legwiggle2 {
+    0%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}
+    50%{-webkit-transform: rotate(55deg);transform: rotate(55deg);}
+    100%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}
+}
+
+.leg1 {
+    width: 250px;
+    height: 70px;
+    border-right: 30px solid white;
+    -webkit-transform: rotate(110deg);
+            transform: rotate(110deg);
+    background-color: rgb(180, 0, 0);
+    position: relative;
+    top: -790px;
+    left: -138px;
+    -webkit-animation: legwiggle1 3s infinite 0s;
+            animation: legwiggle1 3s infinite 0s;
+}
+
+.leg2 {
+    width: 250px;
+    height: 70px;
+    border-right: 30px solid white;
+    -webkit-transform: rotate(70deg);
+            transform: rotate(70deg);
+    background-color: rgb(180, 0, 0);
+    position: relative;
+    top: -861px;
+    left: 97px;
+    -webkit-animation: legwiggle2 3s infinite 0s;
+            animation: legwiggle2 3s infinite 0s;
+}
+
+/* ARMS */
+
+@-webkit-keyframes armwiggle2 {
+    0%{-webkit-transform: rotate(135deg);transform: rotate(135deg);}
+    50%{-webkit-transform: rotate(175deg);transform: rotate(175deg);}
+    100%{-webkit-transform: rotate(135deg);transform: rotate(135deg);}
+}
+
+@keyframes armwiggle2 {
+    0%{-webkit-transform: rotate(135deg);transform: rotate(135deg);}
+    50%{-webkit-transform: rotate(175deg);transform: rotate(175deg);}
+    100%{-webkit-transform: rotate(135deg);transform: rotate(135deg);}
+}
+
+@-webkit-keyframes armwiggle1 {
+    0%{-webkit-transform: rotate(40deg);transform: rotate(40deg);}
+    50%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(40deg);transform: rotate(40deg);}
+}
+
+@keyframes armwiggle1 {
+    0%{-webkit-transform: rotate(40deg);transform: rotate(40deg);}
+    50%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(40deg);transform: rotate(40deg);}
+}
+
+
+.arm1, .arm2 {
+    width: 250px;
+    height: 70px;
+    border-right: 30px solid white;
+    background-color: rgb(180, 0, 0);
+
+}
+
+.arm1 {
+    position: relative;
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+    top: -1203px;
+    left: 224px;
+    -webkit-animation: armwiggle1 3s infinite 0s;
+            animation: armwiggle1 3s infinite 0s;
+}
+
+.arm2 {
+    position: relative;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+    top: -1262px;
+    left: -265px;
+    -webkit-animation: armwiggle2 3s infinite 0s;
+            animation: armwiggle2 3s infinite 0s;
+}
+
+/* SHOES */
+
+.shoes1, .shoes2 {
+    width: 150px;
+    height: 70px;
+    background-color: black;
+}
+
+.shoes1 {
+    position: relative;
+    top: 37px;
+    left: 243px;
+    border-radius: 0 40% 40% 0;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.shoes2 {
+    position: relative;
+    top: -40px;
+    left: 242px;
+    border-radius: 40% 0 0 40%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+/* HANDS */
+
+.hand1, .hand2 {
+    width: 100px;
+    height: 70px;
+    background-color: black;
+}
+
+.hand1 {
+    position: relative;
+    top: 1px;
+    left: 280px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-radius: 0 40% 40% 0;
+}
+
+.hand2 {
+    position: relative;
+    top: 1px;
+    left: 273px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-radius: 0 40% 40% 0;
+}
+
+.finger1, .finger2 {
+    width: 50px;
+    height: 35px;
+    background-color: black;
+}
+
+.finger1 {
+    position: relative;
+    top: -7px;
+    left: 284px;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+    border-radius: 0 40% 40% 0;
+}
+
+.finger2 {
+    position: relative;
+    top: -98px;
+    left: 276px;
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
+    border-radius: 0 40% 40% 0;
+}
+
+/* Activate Line */
+
+.line {
+    width: 10px;
+    height: 650px;
+    position: relative;
+    top: -545px;
+    left: 42px;
+    background-color: #FFD700;
+    border: 1px dotted black;
+}
+
+.bobble-trigger {
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    position: relative;
+    top: -1000px;
+    left: 75px;
+    background-color: transparent;
+}
+
+.bobble {
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+    top: -653px;
+    left: -11px;
+    border: 10px double whitesmoke;
+}
+
+.mainline {
+    -webkit-animation: hampelman 3s infinite 0s;
+            animation: hampelman 3s infinite 0s;
+}
+
+@-webkit-keyframes hampelman {
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px);}
+    50%{-webkit-transform: translateY(150px);transform: translateY(150px);}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px);}
+}
+
+@keyframes hampelman {
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px);}
+    50%{-webkit-transform: translateY(150px);transform: translateY(150px);}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px);}
+}
+
+@-webkit-keyframes sign {
+    from {-webkit-transform: translateY(-800%);transform: translateY(-800%);}
+    to {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+
+@keyframes sign {
+    from {-webkit-transform: translateY(-800%);transform: translateY(-800%);}
+    to {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+
+
+.fitila {
+    width: 400px;
+    height: 250px;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 3px black;
+    border-radius: 20px;
+    border: 10px double white;
+    text-align: center;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+    top: -1773px;
+    left: 295px;
+    -webkit-animation-name: sign;
+            animation-name: sign;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+}
+
+.fitila:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 60px solid rgb(180, 0, 0);
+    position: absolute;
+    top: 103px;
+    left: -50px;
+}
+
+/* BIG STARS */
+
+.star {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #FFD700;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+
+.star::before {
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid #FFD700;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: -27px;
+    left: -36px;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+}
+
+.star::after {
+    width: 0px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -53px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #FFD700;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+            transform: rotate(-70deg);
+}
+
+.gitsubologi-background {
+    position: relative;
+    top: -2032px;
+    left: -140px;
+}
+
+#star1 {
+    top: -45px;
+    left: -270px;
+}
+
+#star2 {
+    top: 95px;
+    left: -135px;
+}
+
+#star3 {
+    top: -111px;
+    left: -10px;
+}
+
+#star4 {
+    top: 206px;
+    left: 533px;
+}
+
+#star5 {
+    top: -193px;
+    left: 691px;
+}
+
+#star6 {
+    top: -204px;
+    left: 503px;
+}
+
+/* SMAL STARS*/
+
+.star-smal {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid orange;
+    border-left: 25px solid transparent;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+
+.star-smal::before {
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-right: 7.5px solid transparent;
+    border-bottom: 20px solid orange;
+    border-left: 7.5px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: -16px;
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+}
+
+.star-smal::after {
+    width: 0px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -24px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid orange;
+    border-left: 25px solid transparent;
+    -webkit-transform: rotate(-70deg);
+            transform: rotate(-70deg);
+}
+
+#star-smal1 {
+    top: -123px;
+    left: -8px;
+}
+
+#star-smal2 {
+    top: 100px;
+    left: 700px;
+}
+
+#star-smal3 {
+    top: -300px;
+    left: 400px;
+}
+
+#star-smal4 {
+    top: -180px;
+    left: -217px;
+}
+
+#star-smal5 {
+    top: -300px;
+    left: -117px;
+}
+
+#star-smal6 {
+    top: -380px;
+    left: 617px;
+}
+
+#star-smal7 {
+    top: -80px;
+    left: -217px;
+}
+
+#star-smal8 {
+    top: -90px;
+    left: 0px;
+}
+
+#star-smal9 {
+    top: -50px;
+    left: 450px;
+}
